@@ -56,7 +56,7 @@ todoControl.addEventListener('submit', function (event) {
         completed: false,
     };
 
-    if (newTodo.value !== '') {
+    if (newTodo.value !== '' && newTodo.value.trim() !== '') {
         todoData.push(newTodo);
     }
 
